@@ -47,7 +47,7 @@ vm.overcommit_memory = 1
 vm.min_free_kbytes = 54326
 
 # 网络核心参数
-net.core.default_qdisc = cake
+net.core.default_qdisc = fq
 net.core.netdev_max_backlog = 5000
 net.core.rmem_max = $bdp_x
 net.core.wmem_max = $bdp_x
